@@ -1,0 +1,33 @@
+// swithch case operator in C
+#include <stdio.h>
+
+int main()
+{
+    int ratting;
+    printf("Enter the rating( 1-5) :");
+    scanf("%d", &ratting);
+
+    switch (ratting)
+    {
+    case 1:
+        printf("Your ratting is 1 \n");
+        break;
+    case 2:
+        printf("Your ratting is 2 \n");
+        break;
+    case 3:
+        printf("Your ratting is 3 \n");
+        break;
+    case 4:
+        printf("Your ratting is 4 \n");
+        break;
+    case 5:
+        printf("Your ratting is 5 \n");
+        break;
+    default:
+        printf("Invalid Ratting \n");
+        break;
+    }
+
+    return 0;
+}
